@@ -34,7 +34,7 @@ function addTodo(e){
   }
   else{
     addTodoUI(newTodo);
-    //addStorage
+    addTodoToStorage();
     showAlert("success",  "TODO Başarıyla Eklendi!");
   }
   e.preventDefault();
